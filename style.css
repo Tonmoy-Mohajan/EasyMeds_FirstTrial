@@ -19,7 +19,7 @@
 .icon{
     margin-left: 40px;
     padding-top: 40px;
-    cursor: ``;
+    cursor: pointer;
 }
 .text{
     margin-right: 40px;
@@ -27,8 +27,36 @@
 }
 .main{
     padding-top: 20px;
-    margin-left: 80px;
+    margin-left: 100px;
+    width: 100%;
+
 }
 .Card{
     padding-top: 20px;
+    margin: 5px 5px 5px 5px;
+}
+button{
+    border: none;
+}
+button:hover{
+    color: crimson;
+}
+.contact{
+    padding-top: 60px;
+    margin-left: 70px;
+}
+.corner{
+  border-radius: 25px;
+  border: 1px solid black;
+  padding: 20px; 
+  width: 1000px;
+  height: 120px;
+}
+.corner1{
+    font-size: 30px;
+}
+.corner3{
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(45, 136, 221);
 }
